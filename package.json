@@ -1,0 +1,23 @@
+{
+  "name": "devops-cicd-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js app containerized with Docker and automated CI/CD using GitHub Actions.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js test"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "docker",
+    "github-actions",
+    "devops",
+    "cicd"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
